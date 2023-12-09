@@ -1,2 +1,7 @@
-Just for save codding/script for growtopia
-U can take it if u need it
+itemId = 627 -- replace what u want to be dropped
+while true do
+  if getInventory():getItemCount(itemId) >= 1 then
+      getBot():drop(itemId, 200)
+  end
+sleep(5000)
+end
