@@ -1,3 +1,6 @@
+Script auto drop when reach any amount ( costumable )
+
+
 itemId = 627 -- replace what u want to be dropped
 while true do
   if getInventory():getItemCount(itemId) >= 1 then
